@@ -1,3 +1,4 @@
+package kadai;
 import java.util.Scanner;
 
 public class IntToEng {
@@ -22,4 +23,3 @@ public class IntToEng {
         return "";
     }
 }
-

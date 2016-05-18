@@ -20,7 +20,7 @@ public class IntToEng {
     		"ten", "eleven", "twelve", "thirteen", "fourteen",
     		"fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
     		StringBuffer number = null;
-    		int num = Integer.parseInt(input);
+    		/*int num = Integer.parseInt(input);
     		if (num < 0 || num > 99) {
     		throw new NumberFormatException();
     		}
@@ -33,7 +33,7 @@ public class IntToEng {
     		if (input.charAt(1) != '0') {
     		number.append("-").append(eNum1[input.charAt(1) - 48]);
     		}
-    		}
+    		}*/
     		return number.toString();
         //return "";
     }
